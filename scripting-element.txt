@@ -1,0 +1,15 @@
+Scriptlet element
+=================
+You can write java code inside this element
+<%
+//Java code
+%>
+Code writtien inside this element will be inserted into service method of auto-generated servlet as it.
+
+Expression element
+==================
+You can write dynamic response inside it
+<%
+String name="Rehan";
+%>
+<h1>Hello <%=name%></h1>

@@ -1,0 +1,50 @@
+Object created by web server
+============================
+Web server creates several objects before executing server side program(Servlets and JSP) as well as during exeuction of server side program.Few objects are as follows
+
+1)Request object
+2)Response object
+3)Config object
+4)Session object
+5)Application/Context object
+etc
+
+Request object
+==============
+It is an object of HttpServletRequest interface
+Web server creates this object before calling servlet or JSP page and passes this object(reference) to the service method
+
+Response object
+==============
+It is an object of HttpServletResponse inserface
+Web server creates this object before calling servlet or JSP page and passes this object(reference) to the service method
+
+Config object
+=============
+It is an object of ServletConfig interface
+Web server creates this object for each server side program
+
+Session object
+===============
+It is an object of HttpSession interface
+Web server creates this object for each user accessing web application
+This object is created on first request of the user
+In this object our application can keep user related data
+
+Application object
+==================
+It is an object of ServletContext interface
+Web server creates this object when application is deployed on web server or web server is started
+In this object our application can keep application related data
+
+
+
+
+
+
+
+
+
+
+
+

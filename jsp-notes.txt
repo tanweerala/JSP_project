@@ -1,0 +1,34 @@
+JSP(Java server pages)
+=======================
+It is extension of servlets
+Building dynamic web pages using JSP is must easier that building dynamic web pages using servlets
+Inside servlet you can not write HTML,CSS and Java script code directly
+But inside JSP pages you can write HTML,CSS and Java script code directly.
+You can also write java code by using scripting elements
+Every JSP page is converted into servlet by web server
+This servlet is known as auto-generated servlet
+
+As we known JSP is not a java program.That's why it is converted into servlet and servlet is a java program
+
+Writing java code inside JSP page
+==================================
+We can use following scripting elements and directives inside JSP page for java programming
+1)Scriptlet element
+<%
+%>
+2)Expression element
+<%=%>
+3)Declaration element
+<%! %>
+These are scripting elements
+1)Page directive
+2)Include directive
+3)Taglib directive
+
+
+
+
+
+
+
+

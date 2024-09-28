@@ -1,0 +1,62 @@
+.la{
+	font-size:20px;
+}
+a{
+	font-size:22px;
+	margin-right:20px;
+	text-decoration: none;
+	background-color:blue;
+	color:white;
+	padding:3px 12px;
+	border-radius: 5px;
+}
+a:hover{
+	background-color: gray;
+}
+.dv{
+	text-align: center;
+	margin-top:50px;
+}
+.fof{
+	font-family: cursive;	
+}
+.ta{
+	margin: auto;
+	margin-top:30px;
+	border:3px solid green;
+	font-size:22px;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+.tb{
+	font-size:20px;
+	width:300px;
+}
+.pd{
+	padding:15px;
+}
+.bt{
+	font-size:19px;
+	padding:2px 15px
+}
+.tar{
+	margin: auto;
+	margin-top:30px;
+	border-collapse:collapse;
+	font-size:22px;
+	border-radius: 5px;
+	width:60%;
+}
+th{
+	text-align: left;
+}
+.ta1{
+	margin: auto;
+	margin-top:30px;
+	border:3px solid silver;
+	font-size:20px;
+}
+.dvv{
+	text-align: center;
+	margin-top:20px;
+}
